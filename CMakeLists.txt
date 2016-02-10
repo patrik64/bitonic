@@ -6,7 +6,7 @@ if(UNIX)
 set( CMAKE_CXX_FLAGS "-std=c++0x")
 endif(UNIX)
 
-find_package( Boost 1.43.0 REQUIRED COMPONENTS thread date_time)
+find_package( Boost 1.43.0 REQUIRED COMPONENTS thread date_time system)
 
 set( SRCS ./bitonic.cpp)
 set( HDRS ./Actor.h ./MessageQueue.h)
