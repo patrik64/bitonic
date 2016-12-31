@@ -43,7 +43,7 @@ public:
 	void enqueue(const boost::any& new_value) {
 		boost::lock_guard<boost::mutex> tail_lock(tail_mutex);
 		boost::shared_ptr<boost::any> new_data(new boost::any(new_value));
-		std::auto_ptr<Node> p (new Node);
+		std::unique_ptr<Node> p (new Node);
 		tail->data = new_data;
 		tail->next = p.get();
 		tail = p.release();

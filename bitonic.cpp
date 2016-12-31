@@ -158,7 +158,7 @@ private:
 		size_t k = 1;
 		while(k < n)
 			k = k << 1;
-		return k >> 1;
+		return (int)(k >> 1);
 	}
 };
 
