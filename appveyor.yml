@@ -1,0 +1,7 @@
+os: gcc
+
+build_script:
+  - md build
+  - cd build
+  - cmake ..
+  - cmake --build . --config Release
