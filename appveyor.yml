@@ -1,4 +1,4 @@
-os: gcc
+os: c:\MinGW
 
 build_script:
   - md build
