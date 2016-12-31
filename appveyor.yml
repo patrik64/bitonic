@@ -1,4 +1,4 @@
-os: c:\MinGW
+os: Previous Windows Server 2012 R2
 
 build_script:
   - md build
