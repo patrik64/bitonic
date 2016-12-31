@@ -1,0 +1,10 @@
+matrix:
+  include:
+    - os: linux
+      env: CC=gcc-5 CXX=g++-5
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
