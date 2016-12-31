@@ -1,6 +1,8 @@
 matrix:
   include:
     - os: linux
+      env: BOOST_VERSION=default BOOST_BUILD=true
+      language: cpp
 
 script:
   - mkdir build
