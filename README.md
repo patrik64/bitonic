@@ -1,5 +1,5 @@
-[https://ci.appveyor.com/api/projects/status/ir7ys6k5343wowv8?svg=true]
-(https://ci.appveyor.com/api/projects/status/ir7ys6k5343wowv8?svg=true)
+[![Build status](https://ci.appveyor.com/api/projects/status/ir7ys6k5343wowv8?svg=true)](https://ci.appveyor.com/project/Patrik64/bitonic-cpp)
+
 
 bitonic application
 
