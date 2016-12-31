@@ -3,18 +3,18 @@ matrix:
 
     # Build with Linux and gcc.
     # The default gcc compiler does not support C++11 so install a higher version.
-    - os: linux
-      env: CC=gcc-5 CXX=g++-5
-      addons: &gcc5
-        apt:
-          packages:
-            - libstdc++-5-dev
-          sources:
-            - ubuntu-toolchain-r-test
-      install:
-        - sudo apt-get update -qq
-        - sudo apt-get install -qq g++-5
-        - sudo apt-get install -y libboost-test-dev
+    #- os: linux
+    #  env: CC=gcc-5 CXX=g++-5
+    #  addons: &gcc5
+    #    apt:
+    #      packages:
+    #        - libstdc++-5-dev
+    #      sources:
+    #        - ubuntu-toolchain-r-test
+    #  install:
+    #    - sudo apt-get update -qq
+    #    - sudo apt-get install -qq g++-5
+    #    - sudo apt-get install -y libboost-test-dev
 
     # Build with OS X and clang.
     # The default clang compiler supports C++11.
