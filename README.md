@@ -1,4 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/ir7ys6k5343wowv8?svg=true)](https://ci.appveyor.com/project/Patrik64/bitonic-cpp)
+[![Build Status](https://travis-ci.org/Patrik64/Bitonic-cpp.svg?branch=master)](https://travis-ci.org/Patrik64/Bitonic-cpp)
 
 
 bitonic application
