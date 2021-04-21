@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.16.0)
+cmake_minimum_required(VERSION 3.20.1)
 
 project( "bitonic")
 
@@ -6,8 +6,8 @@ if(UNIX)
 set( CMAKE_CXX_FLAGS "-std=c++0x")
 endif(UNIX)
 
-find_package( Boost 1.50.0 REQUIRED COMPONENTS thread date_time system)
-if (Boost_FOUND)
+find_package( Boost 1.76.0 REQUIRED COMPONENTS thread date_time system)
+if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIR})
     add_definitions( "-DHAS_BOOST" )
 endif()
