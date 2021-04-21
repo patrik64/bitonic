@@ -14,21 +14,16 @@ to build the application, you'll need the following:
 - latest boost library 
 - latest gcc compiler  
 
-create a new directory called build, go to build (cd build) 
-and type the following:
-bitonic/build$ cmake ..
-bitonic/build$ make
+to build:
+
+```
+mkdir build
+cd build
+cmake ..
+make
+```
 
 that should create the bitonic executable
 to run, type the following:
 
-bitonic/build$ ./bitonic
-
-
-
-
-
-
-
-
-
+```./bitonic```
