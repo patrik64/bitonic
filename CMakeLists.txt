@@ -6,8 +6,8 @@ if(UNIX)
 set( CMAKE_CXX_FLAGS "-std=c++0x")
 endif(UNIX)
 
-SET(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "C:\Libraries\boost_1_65_1")
-SET(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "C:\Libraries\boost_1_65_1\lib64-msvc-14.1")
+SET(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "C:/Libraries/boost_1_65_1")
+SET(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "C:/Libraries/boost_1_65_1/lib64-msvc-14.1")
 
 find_package( Boost 1.65.1 REQUIRED COMPONENTS thread date_time system)
 if(Boost_FOUND)
