@@ -6,7 +6,7 @@ if(UNIX)
 set( CMAKE_CXX_FLAGS "-std=c++0x")
 endif(UNIX)
 
-find_package( Boost 1.73.0 REQUIRED COMPONENTS thread date_time system)
+find_package( Boost 1.65.1 REQUIRED COMPONENTS thread date_time system)
 if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIR})
     add_definitions( "-DHAS_BOOST" )
