@@ -1,1 +1,0 @@
-/usr/bin/c++ -std=c++0x -rdynamic CMakeFiles/bitonic.dir/bitonic.cpp.o -o bitonic  -lboost_thread -lpthread -lboost_date_time -lboost_system -lboost_chrono -lboost_atomic 

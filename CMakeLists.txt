@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.4.7)
+cmake_minimum_required(VERSION 3.0.0)
 
 project( "bitonic")
 
@@ -6,7 +6,7 @@ if(UNIX)
 set( CMAKE_CXX_FLAGS "-std=c++0x")
 endif(UNIX)
 
-find_package( Boost 1.43.0 REQUIRED COMPONENTS thread date_time system)
+find_package( Boost 1.50.0 REQUIRED COMPONENTS thread date_time system)
 
 set( SRCS ./bitonic.cpp)
 set( HDRS ./Actor.h ./MessageQueue.h)
